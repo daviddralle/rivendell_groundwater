@@ -2,6 +2,8 @@
 
 Initial reproducibility archive for the manuscript **Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory**.
 
+Zenodo DOI: https://doi.org/10.5281/zenodo.20361536
+
 This release contains:
 
 - Three ordered Jupyter notebooks for site characterization, bedrock vadose-zone storage capacity, and groundwater-streamflow analysis.
@@ -14,4 +16,3 @@ Excluded from this release:
 - Manuscript TeX/PDF files.
 - QGIS project files and map artwork.
 - Large intermediate DEM derivatives not required by the notebooks.
-

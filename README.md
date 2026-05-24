@@ -68,5 +68,6 @@ The repository is intentionally limited to the data and notebooks needed for the
 
 ## Citation
 
-After Zenodo deposition, cite the archived version using the DOI minted by Zenodo. Until then, use the metadata in `CITATION.cff` and `.zenodo.json`.
+Please cite the archived Zenodo release:
 
+Dralle, D. N., Rempe, D. M., Hahm, W. J., & Dietrich, W. E. (2026). *Data and code for: Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.20361536

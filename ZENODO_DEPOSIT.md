@@ -1,14 +1,16 @@
 # Zenodo Deposition Notes
 
-This repository is prepared for Zenodo deposition.
+This repository has been released on GitHub and archived by Zenodo.
+
+- Version DOI: https://doi.org/10.5281/zenodo.20361536
+- Concept DOI: https://doi.org/10.5281/zenodo.20361535
 
 ## Recommended Deposition Workflow
 
 1. Review `README.md`, `.zenodo.json`, and `CITATION.cff`.
-2. Upload `rivendell-bedrock-groundwater-analysis-v0.1.0.zip` to Zenodo.
-3. Use the metadata in `.zenodo.json`.
-4. Reserve or publish the DOI.
-5. Add the final DOI to:
+2. Create a GitHub release.
+3. Confirm Zenodo ingestion.
+4. Add the final DOI to:
    - `README.md`
    - `CITATION.cff`
    - the manuscript Open Research section
@@ -18,7 +20,7 @@ This repository is prepared for Zenodo deposition.
 
 Replace the placeholder DOI after publication:
 
-> Data and analysis notebooks supporting this study are archived at Zenodo: Dralle et al. (2026), `https://doi.org/10.5281/zenodo.XXXXXXX`.
+> Data and analysis notebooks supporting this study are archived at Zenodo \cite{DralleRivendellGroundwater2026}.
 
 ## Suggested BibTeX Entry
 
@@ -31,8 +33,7 @@ Replace the DOI and URL after Zenodo assigns the record:
   year      = {2026},
   publisher = {Zenodo},
   version   = {0.1.0},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.20361536},
+  url       = {https://doi.org/10.5281/zenodo.20361536}
 }
 ```
-
