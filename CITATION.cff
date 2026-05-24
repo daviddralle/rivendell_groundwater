@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data or notebooks, please cite the archived Zenodo release and the associated manuscript."
+title: "Data and code for: Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory"
+version: "0.1.0"
+date-released: "2026-05-23"
+authors:
+  - family-names: Dralle
+    given-names: David N.
+    affiliation: "Pacific Southwest Research Station, USDA Forest Service, Davis, CA, USA"
+  - family-names: Rempe
+    given-names: Daniella M.
+    affiliation: "Department of Earth and Planetary Sciences, The University of Texas at Austin, Austin, TX, USA"
+  - family-names: Hahm
+    given-names: W. Jesse
+    affiliation: "Department of Geography, Simon Fraser University, Burnaby, BC, Canada"
+  - family-names: Dietrich
+    given-names: William E.
+    affiliation: "Department of Earth and Planetary Science, University of California, Berkeley, CA, USA"
+keywords:
+  - hydrology
+  - groundwater
+  - critical zone
+  - weathered bedrock
+  - headwater catchment
+  - vadose zone
+license: CC-BY-4.0
+

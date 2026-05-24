@@ -1,0 +1,40 @@
+{
+  "title": "Data and code for: Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory",
+  "upload_type": "dataset",
+  "description": "Analysis notebooks, processed hydrologic datasets, and generated figure outputs accompanying a manuscript on weathered-bedrock groundwater, stormflow, baseflow, recharge activation, and hydrologic memory at the Rivendell hillslope in the Elder Creek watershed, northern California.",
+  "creators": [
+    {
+      "name": "Dralle, David N.",
+      "affiliation": "Pacific Southwest Research Station, USDA Forest Service, Davis, CA, USA"
+    },
+    {
+      "name": "Rempe, Daniella M.",
+      "affiliation": "Department of Earth and Planetary Sciences, The University of Texas at Austin, Austin, TX, USA"
+    },
+    {
+      "name": "Hahm, W. Jesse",
+      "affiliation": "Department of Geography, Simon Fraser University, Burnaby, BC, Canada"
+    },
+    {
+      "name": "Dietrich, William E.",
+      "affiliation": "Department of Earth and Planetary Science, University of California, Berkeley, CA, USA"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "weathered bedrock",
+    "groundwater",
+    "critical zone",
+    "headwater catchment",
+    "vadose zone",
+    "baseflow",
+    "stormflow",
+    "hydrologic memory",
+    "Rivendell",
+    "Elder Creek"
+  ],
+  "version": "0.1.0",
+  "language": "eng"
+}
+

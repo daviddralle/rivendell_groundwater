@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+geopandas
+rasterio
+pysheds
+jupyter
+ipykernel
+

@@ -1,0 +1,17 @@
+name: rivendell-groundwater
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - geopandas
+  - rasterio
+  - pysheds
+  - jupyter
+  - ipykernel
+
