@@ -1,3 +1,26 @@
+# v0.2.0
+
+- Match neutron-probe calibrations by instrument serial number and date interval; exclude unsupported records and export the calibration audit.
+- Freeze the manuscript source subset to Rivendell through WY2025, retaining original source row numbers and file hashes.
+- Integrate fixed, fully sampled bedrock depth intervals without extrapolation; retain explicit bounds, profile exclusions, and fit counts.
+- Restrict groundwater interpolation to complete interior gaps of seven days or less. The corrected wet-season comparison has 68 events and NSE 0.804.
+- Use surveyed well elevations consistently; summer storage loss remains 207.0 mm, runoff 225.7 mm, and the integrated weekly apparent coefficient 5.32%.
+- Regenerate manuscript figures with complete well legends and consistent colors, and archive the three executed notebooks and all required inputs.
+
+# Unreleased
+
+- Standardized precipitation accounting to October--September water years using Angelo observations when daily coverage is at least 95%, with PRISM used before the Angelo record and for incomplete days.
+- Reordered the notebooks to a true `01`, `02`, `03` execution sequence and added the provenance-preserving `Data/site_precip_daily.csv` product.
+- Removed six failed August 2017 neutron-probe profiles and eight isolated negative calibrated values before storage integration.
+- Corrected dry-season and wet-season integration intervals, retained the selected April 2 seasonal, April 9 weekly, and November--May event windows, and reframed the weekly ratio as an apparent drainable-storage coefficient.
+- Folded the weekly apparent storage coefficients into the seasonal mass-balance figure and retained only the period-integrated summary coefficient.
+- Recomputed seasonal groundwater peaks using per-well coverage checks and cumulative water-year precipitation through each peak date.
+- Excluded the offset-affected Well 15 WY2014 peak and archived the explicit QC reason with the derived peak data.
+- Added frozen neutron-probe source exports under `Data/raw/`; notebooks no longer read mutable Google Sheets.
+- Corrected the Well 5 vadose-storage integration depth from 5 m to 10 m, consistent with the groundwater record and manuscript methods.
+- Regenerated the processed neutron-probe data and dependent figures from the frozen inputs.
+- Corrected the documented notebook execution order for the prior notebook filenames.
+
 # v0.1.1
 
 Notebook cleanup and archive polish release for the manuscript **Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory**.

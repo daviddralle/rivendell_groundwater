@@ -1,0 +1,9 @@
+{
+  "source_export_date": "2026-07-13",
+  "selection": "Rivendell wells 1,2,3,5,6,7,10,12,13,14,15,16; observations through 2025-09-30; source_row is the row number in the original export including the header",
+  "original_sha256": {
+    "neutron_probe_observations.csv": "6b7445054044df2778725962b07579ba48963ece1d1131007d27c955f7cc6392",
+    "borehole_stickup.csv": "9473121e16e7a879f60d3cf4528c029ee879f371efc4e94226f5bc2946137ab7",
+    "probe_conversion_intervals.csv": "6e87afb99cd57a9d5812ce4f1f1f09177f124989d4af280b62c78c8c70773ab5"
+  }
+}

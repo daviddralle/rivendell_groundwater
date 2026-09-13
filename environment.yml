@@ -9,9 +9,9 @@ dependencies:
   - seaborn
   - scipy
   - scikit-learn
+  - statsmodels
   - geopandas
   - rasterio
   - pysheds
   - jupyter
   - ipykernel
-

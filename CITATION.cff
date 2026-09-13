@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use these data or notebooks, please cite the archived Zenodo release and the associated manuscript."
-title: "Data and code for: Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory"
-version: "0.1.1"
-date-released: "2026-05-23"
+title: "Data and code for: Seasonal Activation and Drainage of a Weathered-Bedrock Groundwater System"
+version: "0.2.0"
+date-released: "2026-09-13"
 authors:
   - family-names: Dralle
     given-names: David N.
