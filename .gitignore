@@ -7,3 +7,24 @@ env/
 venv/
 .pytest_cache/
 
+# Local exploratory analyses, not part of the manuscript release (see README, Scope)
+04_wet_season_recession_storage.py
+05_wlostowski_harman_storage.py
+06_recharge_footprint_matched_q.py
+MATCHED_Q_RECHARGE_FOOTPRINT.md
+WET_SEASON_RECESSION_ANALYSIS.md
+Data/matched_q_*.csv
+Data/recharge_activation_probability.csv
+Data/recharge_footprint_*.csv
+Data/wet_season_recession_*.csv
+Data/wlostowski_*.csv
+Plots/recharge_footprint_matched_q_storage.png
+Plots/wet_season_recession_storage.png
+Plots/wlostowski_harman_storage_comparison.png
+
+# Local scratch
+_to_delete/
+
+# Superseded broad source exports, kept only in the local workspace (see Data/raw/README.md)
+Data/raw/neutron_probe_observations.csv
+Data/raw/borehole_stickup.csv

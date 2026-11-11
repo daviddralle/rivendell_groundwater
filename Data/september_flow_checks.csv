@@ -1,0 +1,17 @@
+quantity,value
+n_years,35
+r_log_QSep_vs_log_Qmin,0.8399067221991412
+QSep_over_Qmin_median,1.4666666666666683
+QSep_over_Qmin_min,1.0499999999999994
+QSep_over_Qmin_max,2.5454545454545463
+minimum_date_median,Sep 28
+minimum_date_q25,Sep 21
+minimum_date_q75,Oct 09
+years_minimum_after_Sep1,34
+runoff_Sep1_to_minimum_mm_min,0.38221044906534163
+runoff_Sep1_to_minimum_mm_max,8.459494387868265
+fraction_of_V_min,0.0056536039037812505
+fraction_of_V_max,0.06699120747594715
+S_peak_slope_mm_per_100mm_P,5.321676579446678
+P_range_fold,3.295017665437061
+Qmin_range_fold,3.529411764705884

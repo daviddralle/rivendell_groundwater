@@ -1,7 +1,7 @@
 {
-  "title": "Data and code for: Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory",
+  "title": "Data and code for: From Storms to Low Flows: Storage and Drainage in a Bedrock Hillslope Aquifer",
   "upload_type": "dataset",
-  "description": "Analysis notebooks, processed hydrologic datasets, and generated figure outputs accompanying a manuscript on weathered-bedrock groundwater, stormflow, baseflow, recharge activation, and hydrologic memory at the Rivendell hillslope in the Elder Creek watershed, northern California.",
+  "description": "Frozen manuscript inputs, three executed analysis notebooks, the interannual recession script, calibration and integration audit tables, derived tables, and figure outputs for groundwater storage and drainage at Rivendell, Elder Creek, California. Version 0.3.0 adds the interannual analysis: seasonal peak storage, storage after the final detected groundwater response, subsequent runoff, the pooled daily storage-runoff relation, the September 1 low-flow fit, and the precipitation elasticity of annual low flow. Earlier corrections to neutron-probe calibration, storage integration intervals, and groundwater gap handling are retained.",
   "creators": [
     {
       "name": "Dralle, David N.",
@@ -34,6 +34,6 @@
     "Rivendell",
     "Elder Creek"
   ],
-  "version": "0.1.1",
+  "version": "0.3.0",
   "language": "eng"
 }

@@ -1,3 +1,37 @@
+# v0.3.0
+
+- Retitled for the manuscript "From Storms to Low Flows: Storage and Drainage in a Bedrock Hillslope Aquifer."
+- Added `07_interannual_recession.py`: response-based recession starts, seasonal peak storage, storage after the final detected groundwater response, September 1 storage, runoff volume, and the September 1 low-flow fit for eight complete water years.
+- Added the pooled daily storage-runoff relation for those recessions, exact permutation p values for the annual fits, and a leave-one-year-out check of September 1 flow.
+- Added the precipitation elasticity of annual low flow (WY1991-2025) and redrew the low-flow figure with water-year precipitation as color.
+- Added `08_low_flow_timing_carryover.py`: 35-year tests of low flow against previous-year precipitation, April-June precipitation, and days since the last large storm.
+- Added `09_september_flow_checks.py`: September 1 flow against the annual minimum (WY1991-2025), runoff between September 1 and the minimum, and peak-to-start storage changes for the eight recession years.
+- Removed `SHA256SUMS` and the hash fields in the metadata files.
+- Relabeled runoff axes in the seasonal and event storage figures. Numerical results from notebooks 01-03 are unchanged from v0.2.0.
+
+# v0.2.0
+
+- Match neutron-probe calibrations by instrument serial number and date interval; exclude unsupported records and export the calibration audit.
+- Freeze the manuscript source subset to Rivendell through WY2025, retaining original source row numbers.
+- Integrate fixed, fully sampled bedrock depth intervals without extrapolation; retain explicit bounds, profile exclusions, and fit counts.
+- Restrict groundwater interpolation to complete interior gaps of seven days or less. The corrected wet-season comparison has 68 events and NSE 0.804.
+- Use surveyed well elevations consistently; summer storage loss remains 207.0 mm, runoff 225.7 mm, and the integrated weekly apparent coefficient 5.32%.
+- Regenerate manuscript figures with complete well legends and consistent colors, and archive the three executed notebooks and all required inputs.
+
+# v0.2.0 working notes
+
+- Standardized precipitation accounting to October--September water years using Angelo observations when daily coverage is at least 95%, with PRISM used before the Angelo record and for incomplete days.
+- Reordered the notebooks to a true `01`, `02`, `03` execution sequence and added the provenance-preserving `Data/site_precip_daily.csv` product.
+- Removed six failed August 2017 neutron-probe profiles and eight isolated negative calibrated values before storage integration.
+- Corrected dry-season and wet-season integration intervals, retained the selected April 2 seasonal, April 9 weekly, and November--May event windows, and reframed the weekly ratio as an apparent drainable-storage coefficient.
+- Folded the weekly apparent storage coefficients into the seasonal mass-balance figure and retained only the period-integrated summary coefficient.
+- Recomputed seasonal groundwater peaks using per-well coverage checks and cumulative water-year precipitation through each peak date.
+- Excluded the offset-affected Well 15 WY2014 peak and archived the explicit QC reason with the derived peak data.
+- Added frozen neutron-probe source exports under `Data/raw/`; notebooks no longer read mutable Google Sheets.
+- Corrected the Well 5 vadose-storage integration depth from 5 m to 10 m, consistent with the groundwater record and manuscript methods.
+- Regenerated the processed neutron-probe data and dependent figures from the frozen inputs.
+- Corrected the documented notebook execution order for the prior notebook filenames.
+
 # v0.1.1
 
 Notebook cleanup and archive polish release for the manuscript **Weathered Bedrock Controls Stormflow, Baseflow, and Recharge While Limiting Hydrologic Memory**.

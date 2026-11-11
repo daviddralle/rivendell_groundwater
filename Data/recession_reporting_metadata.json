@@ -1,0 +1,32 @@
+{
+  "fit": "Ordinary least squares, intercept included; all eight years used for the annual fits.",
+  "permutation_p": "Exact: share of all 40320 orderings of the response with R2 at least as large as observed.",
+  "low_flow_response": "Natural logarithm of September 1 flow (mm/day).",
+  "low_flow_display": "Observed versus exp(fitted log flow); R2 is computed in log space.",
+  "low_flow_model": "ln(Q/(1 mm/day)) = a + b*S0_mm + c*T_days",
+  "low_flow_coefficients": {
+    "const": -1.9763736373207734,
+    "S_start_mm": 0.005321106967357231,
+    "days_to_September": -0.008525929359361155
+  },
+  "initial_storage": "Three-day median centered on the selected post-event maximum; fixed six-well transect and 0.05 effective drainable porosity; one common 2015 datum.",
+  "peak_storage": "Maximum centered three-day median of complete six-well storage, November 1 through May 31; peak_complete_days counts days with all six wells.",
+  "storage_loss": "Initial storage minus the September 1 three-day median storage.",
+  "daily_relation": "Natural-log daily flow against daily storage from each selected start through September 1, pooled over eight years. Daily values are serially correlated; the fit is descriptive. The held-out test predicts each September 1 flow from that day's storage using the other seven years.",
+  "start": "Final detected groundwater response; see manuscript Methods and SI Text S3. This does not declare subsequent recharge zero.",
+  "duration": "Calendar days from selected start through September 1; final-response date and duration are not separate predictors.",
+  "runoff_volume": "Daily runoff summed inclusively from selected start through September 1.",
+  "September_flow": "Median daily flow over August 31-September 2.",
+  "precipitation": "Water-year total; a retrospective descriptor.",
+  "interpretation": "Hillslope storage and catchment runoff; fitted associations do not imply strict control-volume closure.",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2025
+  ]
+}
